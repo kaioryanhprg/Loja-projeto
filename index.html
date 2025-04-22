@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicStyle - Moda Feminina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>ChicStyle</h1>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="colecoes.html">Coleções</a></li>
+                <li><a href="produto.html">Produtos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="#carrinho"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#perfil"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Elegância Atemporal</h2>
+            <p>Descubra peças únicas que combinam sofisticação e conforto</p>
+            <a href="#colecao" class="btn">Explorar Coleção</a>
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categorias" id="categorias">
+        <h2>Categorias</h2>
+        <div class="categorias-grid">
+            <div class="categoria-card">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Vestidos">
+                <h3>Vestidos</h3>
+            </div>
+            <div class="categoria-card">
+                <img src="https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Conjuntos">
+                <h3>Conjuntos</h3>
+            </div>
+            <div class="categoria-card">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Moda Praia">
+                <h3>Moda Praia</h3>
+            </div>
+            <div class="categoria-card">
+                <img src="https://images.unsplash.com/photo-1551489186-8f3b5141f7e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Acessórios">
+                <h3>Acessórios</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section class="destaques" id="novidades">
+        <h2>Novidades</h2>
+        <div class="produtos-grid">
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Conjunto Casual">
+                <h3>Conjunto Casual Verão</h3>
+                <p class="preco">R$ 249,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Vestido Floral">
+                <h3>Vestido Floral Midi</h3>
+                <p class="preco">R$ 189,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Conjunto Esportivo">
+                <h3>Conjunto Esportivo</h3>
+                <p class="preco">R$ 179,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Blazer">
+                <h3>Blazer Moderno</h3>
+                <p class="preco">R$ 299,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551489186-8f3b5141f7e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Conjunto Praia">
+                <h3>Conjunto Praia</h3>
+                <p class="preco">R$ 159,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Vestido Festa">
+                <h3>Vestido Festa</h3>
+                <p class="preco">R$ 399,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Conjunto Noite">
+                <h3>Conjunto Noite</h3>
+                <p class="preco">R$ 349,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1551489186-cf8726f514f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Vestido Casual">
+                <h3>Vestido Casual</h3>
+                <p class="preco">R$ 199,90</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Receba Novidades</h2>
+        <p>Cadastre-se e receba as últimas tendências e ofertas exclusivas</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Seu melhor e-mail">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>ChicStyle - Moda feminina para mulheres modernas e elegantes.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#politica">Política de Privacidade</a></li>
+                    <li><a href="#trocas">Trocas e Devoluções</a></li>
+                    <li><a href="#duvidas">Dúvidas Frequentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: contato@chicstyle.com</p>
+                <p>WhatsApp: (11) 99999-9999</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ChicStyle. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
